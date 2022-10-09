@@ -15,9 +15,10 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
   /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
-  if generateBtn.addEventListener('click', generatePassword())
-    var characterLenth = prompt("How many characters does your password need to be? (8min - 128max)")
-    alert ()
+   
+  var characterLength = prompt("How many characters does your password need to be? (8min - 128max)");
+    alert (characterLength);
+  
   
 }
 
@@ -31,9 +32,9 @@ function generatePassword() {
 1. Show prompt asking to generate a password (UI)
 2 user chooses generate password (event)
 HANDLE EVENT
-3 store value in userChoice (UI)
+3 store answer? (UI)
 4 prompt password criteria: password character length (8-128max)? (UI)
-  if user chooses number then choose number of characters
+  if user chooses number then store number of characters
 5 prompt character types:
 6 prompt include lowercase? (UI)
     if yes then include lowercase
@@ -53,15 +54,11 @@ after each prompt, input should be validated
 password generated and displayed in alert or on page
 
 
-
-
-
-
-
-
-
-
-
+var characterLength = ""
+var lowercase = ""
+var uppercase = ""
+var numeric = ""
+var special characters = ""
 
 
 */
