@@ -17,9 +17,25 @@ function generatePassword() {
   /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
    
   var characterLength = prompt("How many characters does your password need to be? (8min - 128max)");
-    alert (characterLength);
   
+
+
+  var lowerCase = prompt("Do you want to include lowercase letters?")
   
+
+
+  var upperCase = prompt("Do you want to use Uppercase letters?")
+
+
+
+  var numeric = prompt("Do you want the password to be numeric?")
+
+
+  
+  var specialCharacters = prompt("Do you want to include special characters?")
+
+
+
 }
 
 
