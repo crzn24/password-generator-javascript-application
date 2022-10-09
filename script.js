@@ -31,11 +31,13 @@ function generatePassword() {
   var numeric = prompt("Do you want the password to be numeric?")
 
 
-  
+
   var specialCharacters = prompt("Do you want to include special characters?")
 
 
+  alert("Here is your password!")
 
+  
 }
 
 
