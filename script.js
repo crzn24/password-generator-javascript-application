@@ -15,12 +15,15 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
   /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
-
+  if generateBtn.addEventListener('click', generatePassword())
+    var characterLenth = prompt("How many characters does your password need to be? (8min - 128max)")
+    alert ()
+  
 }
 
 
 
-
+// var characterLenth = prompt ("How many characters does your password need to be? (8min - 128max)")
 
 
 ///////// pseudo code////////
