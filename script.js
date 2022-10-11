@@ -11,9 +11,16 @@ var choicesArray = [];
 
 function userChoices() {
   /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
-  
+  choicesArray = [];
 
-  
+  characterLength = parseInt (prompt("How many characters does your password need to be? (8min - 128max)"));
+    if (characterLength <= 8 || characterLength > 128) {
+      alert("Your password needs to be between 8 and 128 characters long.");
+      return false;
+    }
+
+
+
 }
 
 
