@@ -1,51 +1,47 @@
+
 ///////////////////////// DO NOT CHANGE ////////////////////////////////////
 // Assignment Code
+
+///////////////////////// DO NOT CHANGE ABOVE HERE /////////////////////////
+
+
+function userChoices() {
+  /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
+  
+
+  
+}
+
+
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
+  var userPrompts = userChoices();
   var passwordText = document.querySelector("#password");
+
+if(userPrompts) {
+  var password = generatePassword();
   passwordText.value = password;
+}
+ else {
+  passwordText.value = "";
+ } 
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-///////////////////////// DO NOT CHANGE ABOVE HERE /////////////////////////
-
-function generatePassword() {
-  /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
-  
-  var characterLength = prompt("How many characters does your password need to be? (8min - 128max)");
-
-    if (characterLength <= 8) {
-      alert("Your password needs to be at leaset 8 characters long.");
-    } else {}
-
-
-  var lowerCase = prompt("Do you want to include lowercase letters?")
-  
-    
-
-  var upperCase = prompt("Do you want to use Uppercase letters?")
-
-
-
-  var numeric = prompt("Do you want the password to be numeric?")
-
-
-
-  var specialCharacters = prompt("Do you want to include special characters?")
-
-
-  alert("Here is your password!")
-
-  
-}
-
-
 
 // var characterLenth = prompt ("How many characters does your password need to be? (8min - 128max)")
+
+
+
+
+
+
+
+
 
 
 ///////// pseudo code////////
