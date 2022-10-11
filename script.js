@@ -36,6 +36,8 @@ function userChoices() {
     choicesArray = choicesArray.concat(specialCharacters);
   }
  
+  return true;
+
 
 }
 
