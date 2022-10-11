@@ -8,7 +8,7 @@ var specialCharacters = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', 
 
 var choicesArray = [];
 
-
+// Function to catch all input choices //
 function userChoices() {
   /////////////////////////// WRITE YOUR CODE HERE /////////////////////////
   choicesArray = [];
@@ -38,10 +38,18 @@ function userChoices() {
  
   return true;
 
-
 }
 
-
+// Function to generate the password //
+function generatePassword() {
+  var randomPassword = "";
+  for(var i = 0; i < characterLength; i ++) {
+    var randomIndex = Math.floor(Math.random() * choicesArray.length);
+    randomPassword = randomPassword + choicesArray[randomIndex];
+  }
+  return randomPassword;
+ }
+ 
 
 ///////////////////////// DO NOT CHANGE ////////////////////////////////////
 // Assignment Code
