@@ -38,7 +38,7 @@ function userChoices() {
  
   return true;
 
-}
+
 
 // Function to generate the password //
 function generatePassword() {
