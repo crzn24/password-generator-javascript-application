@@ -24,11 +24,14 @@ function userChoices() {
       choicesArray = choicesArray.concat(lowerCase);
   }
   
-  
+
   if (confirm("Do you want to use Uppercase letters?")) {
       choicesArray = choicesArray.concat(upperCase);
   }
  
+  if (confirm("Do you want the password to be numeric?")) {
+    choicesArray = choicesArray.concat(numeric);
+  }
 
 
 }
