@@ -25,7 +25,7 @@ function generatePassword() {
 
   var lowerCase = prompt("Do you want to include lowercase letters?")
   
-
+    
 
   var upperCase = prompt("Do you want to use Uppercase letters?")
 
