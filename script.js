@@ -19,12 +19,11 @@ function userChoices() {
       return false;
     }
 
-  
+  // Note to self: use confirm to only give option to click Cancel or OK in pop up window, or else will show a prompt box to input characters//
   if (confirm("Do you want to include lowercase letters?")) {
       choicesArray = choicesArray.concat(lowerCase);
   }
   
-
   if (confirm("Do you want to use Uppercase letters?")) {
       choicesArray = choicesArray.concat(upperCase);
   }
@@ -33,6 +32,10 @@ function userChoices() {
     choicesArray = choicesArray.concat(numeric);
   }
 
+  if (confirm("Do you want to include special characters?")) {
+    choicesArray = choicesArray.concat(specialCharacters);
+  }
+ 
 
 }
 
