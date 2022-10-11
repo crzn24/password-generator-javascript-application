@@ -1,8 +1,7 @@
 
-///////////////////////// DO NOT CHANGE ////////////////////////////////////
-// Assignment Code
 
-///////////////////////// DO NOT CHANGE ABOVE HERE /////////////////////////
+
+
 
 
 function userChoices() {
@@ -14,6 +13,8 @@ function userChoices() {
 
 
 
+///////////////////////// DO NOT CHANGE ////////////////////////////////////
+// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -32,8 +33,9 @@ if(userPrompts) {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+///////////////////////// DO NOT CHANGE ABOVE HERE /////////////////////////
 
-// var characterLenth = prompt ("How many characters does your password need to be? (8min - 128max)")
+
 
 
 
