@@ -7,20 +7,17 @@ JavaScript was not as clear to me as with previous challenges that were HTML and
 
 
 ## Usage
+This project serves as a password generator that prompts on criteria they need for their password.
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
+![Screenshot of password generator application](assets/images/javascript-homework-demo.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+* [Password Special Characters](https://owasp.org/www-community/password-special-characters)
+* [JavaScript Cheat Sheet](https://htmlcheatsheet.com/js/)
+* Michelle Jordan - Tutor
 
 ## License
 
@@ -31,12 +28,3 @@ The last section of a high-quality README file is the license. This lets other d
 🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 
-
-
-
-
-https://owasp.org/www-community/password-special-characters
-
-https://htmlcheatsheet.com/js/
-
-Michelle Jordan Tutor
