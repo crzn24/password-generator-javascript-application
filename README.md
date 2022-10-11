@@ -9,6 +9,8 @@ JavaScript was not as clear to me as with previous challenges that were HTML and
 ## Usage
 This project serves as a password generator that prompts on criteria they need for their password.
 
+[Link to application](https://crzn24.github.io/password-generator-javascript-application/)
+
 
 
 ![Screenshot of password generator application](assets/images/javascript-homework-demo.png)
@@ -21,10 +23,7 @@ This project serves as a password generator that prompts on criteria they need f
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 
