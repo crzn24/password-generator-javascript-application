@@ -19,6 +19,16 @@ function userChoices() {
       return false;
     }
 
+  
+  if (confirm("Do you want to include lowercase letters?")) {
+      choicesArray = choicesArray.concat(lowerCase);
+  }
+  
+  
+  if (confirm("Do you want to use Uppercase letters?")) {
+      choicesArray = choicesArray.concat(upperCase);
+  }
+ 
 
 
 }
