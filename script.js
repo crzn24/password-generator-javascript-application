@@ -35,8 +35,14 @@ function userChoices() {
   if (confirm("Do you want to include special characters?")) {
     choicesArray = choicesArray.concat(specialCharacters);
   }
- 
-  return true;
+  if (choicesArray.length === 0) {
+    alert("Your password needs to contain at least one character type.");
+    return false;
+  } 
+  else {
+    return true;
+  }
+  
 
 }
 
